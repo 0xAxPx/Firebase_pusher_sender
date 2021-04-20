@@ -22,7 +22,7 @@ fun main() {
           "userName": "Alexander",
            "text": "Based on the best-selling sci-fi trilogy of the same name, Chaos Walking is finally coming to theaters this March, a solid two years after it was originally set to release in 2019. Its premise is simple: a woman-less planet gets an alien visitor (Daisy Ridley) who must endure a world where all men’s thoughts are on display. I have so many jokes, but let’s wait and see how this one plays out.r" 
         }""".trimIndent())
-        .setToken("f0irJHjrTQG-YYYXF47_31:APA91bFXc8_ozqkCW2n2fa1FvRUbdL6nd_jHnSR0y0LHdloJenmMI7nzQBX_LjeKwSZ7o-RqXOKjYRz8kzzKQCkJF2VAd6kWHGO7zR-hVx_8862fgaXrSi4TILfJY0nRUWLN4_75Ip3_")
+        .setToken("")
         .build()
 
     FirebaseMessaging.getInstance().send(message)
